@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="TabbedImage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="k14-Qe-U82">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="k14-Qe-U82" secondAttribute="trailing" id="8vY-bf-f1E"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="k14-Qe-U82" secondAttribute="bottom" id="AuO-ZV-vCG"/>
+                            <constraint firstItem="k14-Qe-U82" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="Eif-tK-VhI"/>
+                            <constraint firstItem="k14-Qe-U82" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="hfK-NK-ZwY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="First" image="home-run" selectedImage="home-run" id="acW-dT-cKf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-320"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="His-pL-7dS">
+            <objects>
+                <viewController id="I25-6X-n6T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sXL-Ay-E8g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="322868_1100-1100x628" translatesAutoresizingMaskIntoConstraints="NO" id="DaM-Yh-voq">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Wf1-f8-cMa" firstAttribute="trailing" secondItem="DaM-Yh-voq" secondAttribute="trailing" id="KMr-v1-10l"/>
+                            <constraint firstItem="DaM-Yh-voq" firstAttribute="leading" secondItem="Wf1-f8-cMa" secondAttribute="leading" id="cTn-Pq-OaB"/>
+                            <constraint firstItem="Wf1-f8-cMa" firstAttribute="bottom" secondItem="DaM-Yh-voq" secondAttribute="bottom" id="mgM-Qc-CWd"/>
+                            <constraint firstItem="DaM-Yh-voq" firstAttribute="top" secondItem="Wf1-f8-cMa" secondAttribute="top" id="vSO-pc-2nu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Wf1-f8-cMa"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="pet" id="VNO-oW-hqs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r9v-wN-6Rn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1525" y="-217"/>
+        </scene>
+        <!--Second-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="TabbedImage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tesla" translatesAutoresizingMaskIntoConstraints="NO" id="gFD-Vp-daE">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gFD-Vp-daE" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" id="DA6-Tk-Rqe"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="gFD-Vp-daE" secondAttribute="bottom" id="Eha-9Z-J7L"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="gFD-Vp-daE" secondAttribute="trailing" id="nmE-rr-4mR"/>
+                            <constraint firstItem="gFD-Vp-daE" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" id="rmw-p9-auq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Second" image="pickup-car" selectedImage="pickup-car" id="cPa-gy-q4n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="y2Q-En-qgf">
+            <objects>
+                <viewController id="RjX-hR-XkP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HXc-xZ-IbE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="planePlane" translatesAutoresizingMaskIntoConstraints="NO" id="Oaz-uk-Pa7">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="pah-jX-qzz" firstAttribute="trailing" secondItem="Oaz-uk-Pa7" secondAttribute="trailing" id="6F8-xN-KWy"/>
+                            <constraint firstItem="Oaz-uk-Pa7" firstAttribute="top" secondItem="pah-jX-qzz" secondAttribute="top" id="Urg-4x-D2t"/>
+                            <constraint firstItem="pah-jX-qzz" firstAttribute="bottom" secondItem="Oaz-uk-Pa7" secondAttribute="bottom" id="hC4-91-Zek"/>
+                            <constraint firstItem="Oaz-uk-Pa7" firstAttribute="leading" secondItem="pah-jX-qzz" secondAttribute="leading" id="peJ-b2-XPp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pah-jX-qzz"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="plane" selectedImage="plane" id="3iu-pD-6Au"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zCZ-jE-a1k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1513" y="409"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="I25-6X-n6T" kind="relationship" relationship="viewControllers" id="svK-yg-76T"/>
+                        <segue destination="RjX-hR-XkP" kind="relationship" relationship="viewControllers" id="HZO-PJ-Obk"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="322868_1100-1100x628" width="1100" height="628"/>
+        <image name="home" width="770" height="513"/>
+        <image name="home-run" width="25" height="25"/>
+        <image name="pet" width="25" height="25"/>
+        <image name="pickup-car" width="25" height="25"/>
+        <image name="plane" width="25" height="25"/>
+        <image name="planePlane" width="1000" height="563"/>
+        <image name="tesla" width="1920" height="1080"/>
+    </resources>
+</document>
